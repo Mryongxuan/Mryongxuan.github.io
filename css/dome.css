@@ -80,6 +80,7 @@ i{font-style: normal;}
 	right: .2rem;
 	top: 1.8rem;
 	height: .34rem;
+	line-height: .34rem;
 	font-size: .24rem;
 	color: #fff;
 	overflow: hidden;
@@ -223,6 +224,7 @@ i{font-style: normal;}
 	width: .25rem;
 	height: .25rem;
 	line-height: .25rem;
+	font-size: .18rem;
 	border-radius: 50%;
 	background-color: #f69;
 	text-align: center;
@@ -327,7 +329,7 @@ i{font-style: normal;}
 	color: #f69;
 }
 .icon_one{
-	background-position: -2.11rem 0;
+	background-position: -2.13rem -.55rem;
 }
 .icon_two{
 	background-position: .04rem -.64rem;
@@ -336,7 +338,7 @@ i{font-style: normal;}
 	background-position: .04rem -1.35rem;
 }
 .icon_four{
-	background-position: -1.0rem 0;
+	background-position: .06rem 0;
 }
 .go{
 	width: .84rem;
