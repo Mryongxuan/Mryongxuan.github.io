@@ -1,0 +1,157 @@
+*{padding: 0; margin: 0;box-sizing: border-box;}
+html{font-size: 100px;}
+body{font-size: initial;font-family: Adobe 黑体 Std,Arial;}
+a{text-decoration: none;}
+li{list-style: none;padding: 0;margin: 0;}
+i{font-style: normal;}
+.all{
+	max-width: 750px;
+	margin: 0 auto;
+	background-color: #f2f2f2;
+}
+.contenter{
+	width: 100%;
+	overflow: hidden;
+}
+/*个人资料*/
+.head{
+	position: relative;
+	width: 100%;
+}
+.user{
+	width: 100%;
+	height: 2.3rem;
+	background: url(../img/bg_01.jpg) no-repeat;
+	background-size: 7.5rem 2.3rem;
+	position: relative;
+	overflow: hidden;
+}
+.user_hear{
+	width: 1.4rem;
+	height: 1.4rem;
+	border: 0.01rem solid #eaf2ff;
+	border-radius: 50%;
+	position: absolute;
+	top: .35rem;
+	left: .55rem;
+	text-align: center;
+	opacity: .5;
+	z-index: 0;
+	overflow: hidden;
+}
+.head_portrait{
+	width: 1.19rem;
+	height: 1.19rem;
+	border: 0.02rem solid #fff;
+	margin-top: .105rem;
+	border-radius: 50%;
+	position: absolute;
+	top: .35rem;
+	left: .66rem;
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+.head_portrait img{
+	position: absolute;
+	left: -.2rem;
+	width: 1.54rem;
+	height: 1.56rem;
+}
+.username{
+	min-width: 2rem;
+	font-size: .28rem;
+	color: #fff;
+	position: absolute;
+	left: 1.9rem;
+	top: .7rem;
+	z-index: 2;
+}
+.integral{
+	min-width: 1.3rem;
+	font-size: .28rem;
+	color: #fff;
+	position: absolute;
+	left: 1.9rem;
+	top: 1.2rem;
+}
+.portrait_box{
+	position: absolute;
+	left: 4.65rem;
+	top: 1.8rem;
+	height: .34rem;
+	font-size: .24rem;
+	color: #fff;
+	overflow: hidden;
+}
+.portrait{
+	width: .25rem;
+	height: .31rem;
+	margin-right: .06rem;
+	background: url(../img/personage_img.png) no-repeat -.64rem .04rem;
+	background-size: 2.84rem 1.79rem;
+	float: left;
+	overflow: hidden;
+}
+/*个人关注*/
+.user_record{
+	width: 100%;
+	height: 1rem;
+	background-color: #fff;
+}
+.record_box{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.record_box li{
+	display: inline-block;
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+}
+.article_name{
+	margin: .2rem 0 0 0;
+}
+.article_name a{
+	font-size: .28rem;
+	color: #333;
+}
+.commodity a{
+	color: #999;
+	font-size: .24rem;
+}
+/*订单区*/
+.order_form{
+	width: 100%;
+	height: 2.2rem;
+	margin-top: .22rem;
+	background-color: #fff;
+}
+.order_form_top{
+	width: 100%;
+	height: 50%;
+}
+.form_top_pre{
+	height: 100%;
+	margin-left: .3rem;
+	float: left;
+}
+.pre_icon{
+	width: .5rem;
+	height: .5rem;
+	border-radius: 50%;
+	background: url(../img/personage_img.png) no-repeat -1.36rem .02rem;
+	background-color: #f69;
+	margin-top: .3rem;
+}
+.form_top_pre p{
+	height: 100%;
+	float: left;
+}
+.form_top_next{
+	height: 100%;
+	float: right;
+	margin-right: .3rem;
+}
