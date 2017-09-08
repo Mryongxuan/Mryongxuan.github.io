@@ -302,6 +302,7 @@ i{font-style: normal;}
 .cut_box{
 	display: block;
 	height: 100%;
+	display: flex;
 	overflow: hidden;
 }
 .cut_box li{
@@ -311,13 +312,11 @@ i{font-style: normal;}
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	text-align: center;
-	float: left;
+	align-items: center;
 }
 .box_index_icon{
 	width: .5rem;
 	height: .5rem;
-	margin-left: 37%;
 	background: url(../img/index_img.png) no-repeat ;
 	background-size: 2.61rem 1.75rem;
 }
