@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>首页</title>
+	<link rel="stylesheet" href="css/index.css" />
+	<link rel="stylesheet" href="css/inquire.css"></link>
+	<link rel="stylesheet" href="css/swiper.min.css" />
+</head>
+<body class="mhome">
+	<!--最大包裹层-->
+	<div class="content">
+		<!--顶部搜索块-->
+		<div class="top">
+			<div class="top_one">
+				<div class="location_left"></div>
+				<div class="location_right">广州</div>
+			</div>
+			<div class="search">
+				<button></button>
+			</div>
+			<div class="search_2">				
+				<input type="text" placeholder="请输入搜索物品名称"/>
+			</div>
+			<div class="information">
+				<a href="javascript:;"></a>
+			</div>
+		</div>
+		<!--轮播图块-->
+		<div class="slideshow">
+			<div class="swiper-container">
+		        <div class="swiper-wrapper">
+		            <div class="swiper-slide">
+		            	<a href="javascript:;">
+		            		<img src="img/lunbo.jpg"/>
+		            	</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:;">
+		            		<img src="img/lunbo2.jpg"/>
+		            	</a>
+		            </div>
+		            <div class="swiper-slide">
+		            	<a href="javascript:;">
+		            		<img src="img/lunbo3.jpg"/>
+		            	</a>
+		            </div>
+		        </div>
+		        <div class="swiper-pagination"></div>
+		    </div>
+		</div>
+		<!--推荐块-->
+		<div class="big_recommend">
+			<div class="recommend">
+				<div class="recommend_i">
+					<a href="javascript:;">
+						<img src="img/haowu.jpg"/>
+					</a>
+				</div>
+				<div class="recommend_i">
+					<a href="javascript:;">
+						<img src="img/kuang.jpg"/>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--潮流趋势-->
+		<div class="trend">
+			<div class="trend_content pre">
+				<a href="javascript:;">
+					<img src="img/left_pic.jpg"/>
+				</a>
+			</div>
+			<div class="trend_content tend">
+				<a href="javascript:;">
+					<img src="img/right_pic.jpg"/>
+				</a>
+			</div>
+		</div>
+		<!--秒杀-->
+		<div class="seckill">
+			<div class="clock">
+				<div class="clock_left">
+					<div class="clock_left_pre"></div>
+					<div class="clock_left_next">
+						<a href="javascript:;">秒杀</a>
+					</div>
+					<div class="clock_time" id="time_01"></div>
+					<div class="clock_time_dot">
+						<i></i>
+						<i></i>
+					</div>
+					<div class="clock_time ck_tm_active" id="time_02"></div>
+					<div class="clock_time_dot">
+						<i></i>
+						<i></i>
+					</div>
+					<div class="clock_time ck_tm_active" id="time_03"></div>
+				</div>
+				<div class="clock_right">
+					<a href="javascript:;">全场低价出售</a>
+				</div>
+			</div>
+			<div class="big_best">
+				<div class="best">
+					<div class="best_seller">
+						<div class="seller_pic">
+							<a href="javascript:;">
+								<img src="img/tj_01.jpg"/>
+							</a>
+							<div class="best_icon">
+								热卖
+							</div>
+						</div>
+						<p class="price">
+							<i>¥</i>
+							39.00
+						</p>
+						<p>
+							<del>
+								<i>¥</i>
+								129
+							</del>
+						</p>
+					</div>
+					<div class="best_seller">
+						<div class="seller_pic">
+							<a href="javascript:;">
+								<img src="img/tj_02.jpg"/>
+							</a>
+							<div class="best_icon icon_two">
+								实惠
+							</div>
+						</div>
+						<p class="price">
+							<i>¥</i>
+							59.00
+						</p>
+						<p>
+							<del>
+								<i>¥</i>
+								129
+							</del>
+						</p>
+					</div>
+					<div class="best_seller">
+						<div class="seller_pic">
+							<a href="javascript:;">
+								<img src="img/tj_03.jpg"/>
+							</a>
+							<div class="best_icon icon_three">
+								推荐
+							</div>
+						</div>
+						<p class="price">
+							<i>¥</i>
+							109.00
+						</p>
+						<p>
+							<del>
+								<i>¥</i>
+								129
+							</del>
+						</p>
+					</div>
+					<div class="best_seller">
+						<div class="seller_pic">
+							<a href="javascript:;">
+								<img src="img/tj_04.jpg"/>
+							</a>
+							<div class="best_icon icon_ree">
+								潮流
+							</div>
+						</div>
+						<p class="price">
+							<i>¥</i>
+							39.00
+						</p>
+						<p>
+							<del>
+								<i>¥</i>
+								129
+							</del>
+						</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!--帅气风尚-->
+		<div class="trend">
+			<div class="trend_content pre">
+				<a href="javascript:;">
+					<img src="img/left_pic03.jpg"/>
+				</a>
+			</div>
+			<div class="trend_content tend">
+				<a href="javascript:;">
+					<img src="img/right_pic02.jpg"/>
+				</a>
+			</div>
+		</div>
+		<!--好货-->
+		<div class="good_stuff">
+			<a href="javascript:;">
+				<img src="img/middle.jpg" alt="女装好货" />
+			</a>
+		</div>
+		<!--发现好店-->
+		<div class="seckill Find_shop">
+			<div class="clock">
+				<div class="clock_left">
+					<div class="clock_left_pre clock_left_next2"></div>
+					<div class="clock_left_next ">
+						<a href="javascript:;">发现好店</a>
+					</div>
+				</div>
+				<div class="clock_right">
+					<a href="javascript:;">你的中意尽在此</a>
+				</div>
+			</div>
+			<div class="big_best">
+				<div class="best shop">
+					<div class="shop_box">
+						<div class="shop_one">
+							<a href="javascript:;">
+								<img src="img/beauti.jpg"/>
+							</a>
+							<div class="best_icon">
+								No.1
+							</div>
+						</div>
+						<p class="shop_p">
+							BEAUTI
+						</p>
+					</div>
+					<div class="shop_box">
+						<div class="shop_one">
+							<a href="javascript:;">
+								<img src="img/chicmoss.jpg"/>
+							</a>
+							<div class="best_icon icon_two">
+								No.2
+							</div>
+						</div>
+						<p class="shop_p">
+							CM服装
+						</p>
+					</div>
+					<div class="shop_box">
+						<div class="shop_one">
+							<a href="javascript:;">
+								<img src="img/earth.jpg"/>
+							</a>
+							<div class="best_icon icon_three">
+								No.3
+							</div>
+						</div>
+						<p class="shop_p">
+							Earth
+						</p>
+					</div>
+					<div class="shop_box">
+						<div class="shop_one">
+							<a href="javascript:;">
+								<img src="img/on.jpg"/>
+							</a>
+							<div class="best_icon icon_eath">
+								No.4
+							</div>
+						</div>
+						<p class="shop_p">
+							On&On
+						</p>
+					</div>
+					<div class="shop_box">
+						<div class="shop_one">
+							<a href="javascript:;">
+								<img src="img/asos.jpg"/>
+							</a>
+							<div class="best_icon icon_ree">
+								No.5
+							</div>
+						</div>
+						<p class="shop_p">
+							asos服装
+						</p>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<!--猜你喜欢-->
+		<div class="like_top">
+			<div class="like_top_left"></div>
+			<div class="like_top_content">
+				<a href="javascript:;">猜你喜欢</a>
+			</div>
+			<div class="like_top_left like_top_right"></div>
+		</div>
+		<div class="like">
+			<div class="like_content like_content_acvite">
+				<a href="javascript:;">
+					<img src="img/cnx_.jpg"/>
+				</a>
+				<p class="like_p">
+					D韩版半高领仿貂绒保暖毛衣esire
+				</p>
+				<p class="like_p2">
+					<i>¥</i>
+					39.00
+				</p>
+			</div>
+			<div class="like_content like_content_acvite">
+				<a href="javascript:;">
+					<img src="img/cnx_02.jpg"/>
+				</a>
+				<p class="like_p">
+					D韩版半高领仿貂绒保暖毛衣esire
+				</p>
+				<p class="like_p2">
+					<i>¥</i>
+					39.00
+				</p>
+			</div>
+			<div class="like_content ">
+				<a href="javascript:;">
+					<img src="img/cnx_03.jpg"/>
+				</a>
+				<p class="like_p">
+					D韩版半高领仿貂绒保暖毛衣esire
+				</p>
+				<p class="like_p2">
+					<i>¥</i>
+					39.00
+				</p>
+			</div>
+			<div class="like_content ">
+				<a href="javascript:;">
+					<img src="img/cxn_04.jpg"/>
+				</a>
+				<p class="like_p">
+					D韩版半高领仿貂绒保暖毛衣esire
+				</p>
+				<p class="like_p2">
+					<i>¥</i>
+					39.00
+				</p>
+			</div>
+			<div class="like_content ">
+				<a href="javascript:;">
+					<img src="img/cnx_05.jpg"/>
+				</a>
+				<p class="like_p">
+					D韩版半高领仿貂绒保暖毛衣esire
+				</p>
+				<p class="like_p2">
+					<i>¥</i>
+					39.00
+				</p>
+			</div>
+			<div class="like_content ">
+				<a href="javascript:;">
+					<img src="img/cnx_06.jpg"/>
+				</a>
+				<p class="like_p">
+					D韩版半高领仿貂绒保暖毛衣esire
+				</p>
+				<p class="like_p2">
+					<i>¥</i>
+					39.00
+				</p>
+			</div>
+		</div>
+		<!--底部切换栏-->
+		<div class="buttom_cut">
+			<ul class="cut_box">
+				<li class="box_one">
+					<div class="box_index_icon icon_one"></div>
+					<p>
+						<a href="javascript:;">首页</a>
+					</p>
+				</li>
+				<li>
+					<div class="box_index_icon icon_two"></div>
+					<p>
+						<a href="javascript:;">消息</a>
+					</p>
+				</li>
+				<li>
+					<div class="box_index_icon icon_three"></div>
+					<p>
+						<a href="javascript:;">购物车</a>
+					</p>
+				</li>
+				<li>
+					<div class="box_index_icon icon_four"></div>
+					<p>
+						<a href="javascript:;">我</a>
+					</p>
+				</li>
+			</ul>
+		</div>
+		<!--返回顶部-->
+		<div class="go"></div>
+	</div>
+<script src="js/jquery-2.1.0.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
