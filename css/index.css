@@ -1,42 +1,329 @@
-*{margin: 0;padding: 0;box-sizing: border-box;}
-html,body{height: 100%;width: 100%;}
-.contened{
-	width: 100%;
-	height: 100%;
-	background: url(../img/index.jpg) no-repeat 50% 50%;
-	background-size: cover;
-	overflow: hidden;
+/*预设样式*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "microsoft yahei";
 }
+a{text-decoration: none;}
+li{list-style: none;}
+.fl{float: left;}
+.fr{float: right;}
+.clear{
+	clear:both;
+}
+/*头部*/
 .conten{
-	width: 400px;
-	height: 300px;
-	position: fixed;
-	top: 150px;
-	right: 200px;
-	opacity: .7;
-	border-radius: 5px;
-	overflow: hidden;	
+	height: 60px;
+	background: url(../img/bg.png);
+	position: relative;
+	z-index: 999;
 }
-.conten_top{
-	width: 100%;
-	height: 20%;
-	background: #76b662;
-	display: flex;
-	flex-direction: column;
-	justify-content: center; 
+.conten .top{
+	width: 980px;
+	height: 100%;
+	margin: 0 auto;
 }
-.conten span{
-	text-align: center;
+.logo{
+	/*width: 120px;*/
+	height: 100%;
+	line-height: 60px;
 	color: #fff;
 }
-.conten_buttom{
-	width: 100%;
-	height: 80%;
-	background-color: #fff;
+.logo h1{
+	font-size: 20px;
 }
-.box{
-	width: 25%;
-	height: 50%;
-	background: #f69;
+.nav{
+	margin-left: 20px;
+}
+.nav_li{
+	display: block;
+	margin-top: 15px;
+}
+.nav_li li{
 	float: left;
+	height: 100%;
+	margin: 0 15px;
 }
+.nav_li li a{
+	display: block;
+	color: #ffffff;
+	padding: 0 15px;
+	font-size: 13px;
+}
+/*轮播图*/
+.ban{
+	/* position: relative; */
+	/* top: -4px; */
+}
+.pic_box{
+	height: 500px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	background: #000;
+	transition: 1s;
+}
+.pic_box:hover .arrows_box{
+	display: block;
+	transition: 1s;
+}
+.pic_box ul{
+	position: relative;
+}
+.pic_box ul li{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.dot{
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 20px;
+	text-align: center;
+}
+.dot_box{
+	display: inline-block;
+}
+.dot_box span{
+	display: block;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background: #fff;
+	float: left;
+	margin: 0 10px;
+}
+.arrows_box{
+	display: none;
+	position: absolute;
+	top: 46%;
+	width: 100%;
+	height: 50px;
+	transition: .5s;
+}
+.arrows_box .pre{
+	height: 100%;
+	transition: .5s;
+}
+.arrows_box .pre:hover{
+	background: #ddd;
+	transition: .5s;
+}
+.arrows_box .pre i{
+	font-size: 42px;
+	color: #fff;
+}
+.arrows_box .next{
+	height: 100%;
+	transition: .5s;
+}
+.arrows_box .next:hover{
+	background: #ddd;
+	transition: .5s;
+}
+.arrows_box .next i{
+	font-size: 42px;
+	color: #fff;
+}
+.dot_box .acvited{background: #0b868e;}
+.acvite{opacity: 1;}
+/*作品*/
+.word_box{
+	background: #0b868e;
+	/* position: relative; */
+	/* top: -4px; */
+}
+.word_box .word{
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.word_top{
+	width: 100%;
+	overflow: hidden;
+}
+.pro{
+	width: 100%;
+	overflow: hidden;
+}
+.pro_left{
+	
+font-size: 44px;
+	
+line-height: 44px;
+	
+color: yellow;
+}
+.pro_right{
+	
+border-left: 1px solid #234a4f;
+	
+color: #fff;
+	
+padding-left: 10px;
+	
+margin: 17px 0 0 10px;
+}
+.pro_box{
+	width: 100%;
+	overflow: hidden;
+}
+.pro_box ul{
+	display: block;
+	width: 100%;
+}
+.pro_box ul li{
+	position: relative;
+	width: 31%;
+	margin: 11px;
+	height: 350px;
+	float: left;
+	overflow: hidden;
+}
+.pro_box ul li img{
+	width: 100%;
+}
+.tier{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: rgba(255, 255, 255, 0.82);
+}
+.tier a{
+	color: #0b868e;
+	padding-left: 5px;
+	font-size: 14px;
+}
+/*个人信息*/
+.mess{
+	/* position: relative; */
+	/* top: -4px; */
+	width: 100%;
+	background: url(../img/bg_c.png);
+	overflow: hidden;
+}
+.mess_box{
+	width: 980px;
+	margin: 40px auto 0;
+	overflow: hidden;
+}
+.mess_box .mess_left{
+	width: 30%;
+	overflow: hidden;
+}
+.mess_box .mess_left .basic{
+	width: 100%;
+	border-bottom: 1px solid #fff;
+}
+.mess_box .mess_left .basic ul{
+		
+}
+.mess_box .mess_left .basic ul li{
+	font-size: 13px;
+	padding: 5px 0;
+	color: #fff;	
+}	
+.undergo{
+	width: 100%;
+	margin-bottom: 16px;
+}
+.undergo dl{
+	margin-top: 10px;
+	width: 100%;
+}
+.undergo dl dt{
+	color: #fff;
+	font-size: 20px;
+	margin: 25px 0 5px 0;
+}
+.undergo dl dd{
+	color: #fff;
+	font-size: 13px;
+	padding: 5px 0 0px 15px;
+}
+.mess_box .mess_content{
+	width: 25%;
+	margin-left: 5%;
+}
+.about{
+	text-align: center;
+	margin: 0 56px;
+	border-bottom: 1px solid #fff;
+}
+.about .us{
+	color: #fff;
+	font-size: 26px;
+}
+.about .abouts{
+	color: #fff;
+}
+.pic_b{
+	width: 100%;
+	height: 370px;
+}
+.pic_b img{
+	margin-top: 55px;
+}
+.mess_box .mess_right{
+	width: 35%;
+}
+.skill{
+	width: 100%;
+	margin: 0 auto;
+}
+.rise{
+	color: #fff;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+.ski_con{
+	/* margin-top: 20px; */
+}
+.ski_con ul li{
+	color: #fff;
+	font-size: 14px;
+	padding: 5px 0 0 15px;
+}
+/*底部*/
+.bottom{
+	background: #18454a;
+}
+.foot{
+	width: 980px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.phone{
+	width: 30%;
+	margin-top: 20px;
+}
+.phone p{
+    color: #fff;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.ewm{
+	width: 328px;
+	margin-top: 20px;
+}
+.QQ{
+	
+}
+.QQ img{
+	
+width: 122px;
+}
+.chat{
+	
+}
+.chat img{
+	
+height: 135px;
+	
+margin-left: 41px;
+}
+
