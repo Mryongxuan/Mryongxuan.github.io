@@ -224,8 +224,8 @@ margin: 17px 0 0 10px;
 }
 .mess_box .mess_left .basic ul li{
 	font-size: 13px;
-	padding: 5px 0;
-	color: #fff;	
+	padding: 4px 0;
+	color: #fff;
 }	
 .undergo{
 	width: 100%;
@@ -238,7 +238,7 @@ margin: 17px 0 0 10px;
 .undergo dl dt{
 	color: #fff;
 	font-size: 20px;
-	margin: 25px 0 5px 0;
+	margin: 10px 0 2px 0;
 }
 .undergo dl dd{
 	color: #fff;
