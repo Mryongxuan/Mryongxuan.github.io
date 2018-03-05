@@ -1,0 +1,154 @@
+@charset "utf-8";
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+code,
+form,
+fieldset,
+legend,
+button,
+input,
+select,
+textarea,
+th,
+td,
+span,
+b {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font: 12px/1.5 Arial, '微软雅黑', sans-serif;
+}
+
+
+/* QQ、微信 */
+
+.contact {
+    z-index: 999;
+    position: absolute;
+    top: 30px;
+    right: -120%;
+}
+
+.contact ul {
+    display: block;
+}
+
+.contact ul li {
+    height: 35px;
+    float: left;
+    margin: 0 12px;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+    box-sizing: initial;
+}
+
+.contact ul li div {
+    display: none;
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 50px;
+    left: -34px;
+    transition: 1s;
+}
+
+.contact ul li div:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: -16px;
+    left: 50%;
+    margin-left: -10px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+}
+
+.contact ul .QQ {
+    width: 35px;
+    background: url(../images/qq.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contact ul .QQ div {
+    background: url(../images/QQ_cont.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contact ul .wechat {
+    background: url(../images/weixin.png) no-repeat;
+    background-size: cover;
+    width: 42px;
+}
+
+.contact ul .wechat div {
+    background: url(../images/wechat.png) no-repeat center center;
+    background-size: cover;
+}
+
+.contact ul .phone {
+    width: 30px;
+    background: #fff url(../images/phone.png) no-repeat center center;
+    background-size: 25px;
+}
+
+.contact ul .phone a {
+    /* display: none; */
+    font-size: 12px;
+    color: #fff;
+}
+
+
+/* 下箭头 */
+
+.arrows {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(../images/arrows.png) no-repeat center center;
+    background-size: 30px;
+    cursor: pointer;
+    margin-left: -25px;
+    z-index: 999;
+}
+
+.arrows_two {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background: url(../images/arrows2.png) no-repeat center center;
+    background-size: 30px;
+    cursor: pointer;
+    margin-left: -25px;
+    z-index: 999;
+}
