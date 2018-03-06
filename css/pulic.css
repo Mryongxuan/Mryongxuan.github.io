@@ -92,24 +92,22 @@ textarea {
 
 .contact ul .QQ {
     width: 35px;
-    background: url(../images/qq.png) no-repeat center center;
-    background-size: cover;
+    background: url(../images/icon.png) -157px -19px;
+    background-size: 310px;
 }
 
 .contact ul .QQ div {
-    background: url(../images/QQ_cont.png) no-repeat center center;
-    background-size: cover;
+    background: url(../images/icon.png) no-repeat -14px -9px;
 }
 
 .contact ul .wechat {
-    background: url(../images/weixin.png) no-repeat;
-    background-size: cover;
+    background: url(../images/icon.png) no-repeat -135px -83px;
+    background-size: 270px;
     width: 42px;
 }
 
 .contact ul .wechat div {
-    background: url(../images/wechat.png) no-repeat center center;
-    background-size: cover;
+    background: url(../images/icon.png) no-repeat -15px -131px;
 }
 
 .contact ul .phone {
@@ -133,8 +131,8 @@ textarea {
     left: 50%;
     width: 50px;
     height: 50px;
-    background: url(../images/arrows.png) no-repeat center center;
-    background-size: 30px;
+    background: url(../images/icon.png) no-repeat -117px -112px;
+    background-size: 380px;
     cursor: pointer;
     margin-left: -25px;
     z-index: 999;
@@ -142,12 +140,12 @@ textarea {
 
 .arrows_two {
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     left: 50%;
     width: 50px;
     height: 50px;
-    background: url(../images/arrows2.png) no-repeat center center;
-    background-size: 30px;
+    background: url(../images/icon.png) no-repeat -117px -25px;
+    background-size: 380px;
     cursor: pointer;
     margin-left: -25px;
     z-index: 999;
